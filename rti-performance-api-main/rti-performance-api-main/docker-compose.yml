@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  clinicmanager.api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection="Host=dpg-cqbvjh88fa8c73cih4mg-a.oregon-postgres.render.com;Database=rticardioperformance;Username=rticardioperformance_user;Password=ei3lijUJ9vqnY9RhCEatX10KpQPCYSis"

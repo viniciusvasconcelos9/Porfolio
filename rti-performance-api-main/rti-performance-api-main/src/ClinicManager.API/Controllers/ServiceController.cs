@@ -1,0 +1,118 @@
+﻿using Clinic_Manager.Core.Entities;
+using Clinic_Manager.Core.Interface;
+using ClinicManager.Application.Commands.Create.CreateServiceCommand;
+using ClinicManager.Application.Queries.GetIdService;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+
+namespace ClinicManager.API.Controllers
+{
+    //[Authorize]
+    //[Route("api/[controller]")]
+    //[ApiController]
+    public class ServiceController : ControllerBase
+    {
+        private readonly IServiceRepository _serviceRepository;
+        private readonly IMediator _mediator;
+        private readonly ILogger<CreateServiceCommandHandler> _logger;
+
+        public ServiceController(IServiceRepository serviceRepository, IMediator mediator, ILogger<CreateServiceCommandHandler> logger)
+        {
+            _serviceRepository = serviceRepository;
+            _mediator = mediator;
+            _logger = logger;
+        }
+
+        //[HttpGet]
+        public async Task<IActionResult> GetAllServicesAsync()
+        {
+            try
+            {
+                var services = await _serviceRepository.GetAllServicesAsync();
+                return Ok(services);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, $"Erro ao obter todos os serviços!");
+            }
+        }
+
+        //[HttpGet("{id}")]
+        public async Task<IActionResult> GetServiceByIdQuery(int id)
+        {
+            var query = new GetServiceByIdQuery(id);
+            try
+            {
+                var service = await _mediator.Send(query);
+                if (service == null)
+                {
+                    return NotFound();
+                }
+                return Ok(service);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, $"Errro ao obter o {id} do serviço");
+            }
+        }
+
+        //[HttpPost]
+        public async Task<IActionResult> AddServiceCommand(CreateServiceCommand command)
+        {
+            try
+            {
+                if (command == null)
+                {
+                    return BadRequest("O serviço enviado está vazio");
+                }
+
+                var id = await _mediator.Send(command);
+                return CreatedAtAction(nameof(GetServiceByIdQuery), new { id }, command);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao criar o serviço: {Message}", ex.Message);
+                return StatusCode(500, $"Erro ao criar o serviço: {ex.Message}");
+            }
+        }
+
+        //[HttpPut("{id}")]
+        public async Task<IActionResult> UpdateServiceAsync(int id, Service service)
+        {
+            if (id != service.Id)
+            {
+                return BadRequest("ID do serviço não corresponde ao ID fornecido nos parâmetros!");
+            }
+
+            try
+            {
+                await _serviceRepository.UpdateServiceAsync(service);
+                return Ok(service);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, $"Erro ao atualizar o serviço");
+            }
+        }
+
+        //[HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteServiceAsync(int id)
+        {
+            try
+            {
+                var serviceToDelete = await _serviceRepository.GetServiceByIdAsync(id);
+                if (serviceToDelete == null)
+                {
+                    return NotFound($"Serviço com o ID {id} não encontrado.");
+                }
+
+                await _serviceRepository.DeleteServiceAsync(id);
+                return Ok(serviceToDelete);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, $"Erro ao excluir o serviço com o ID {id}.");
+            }
+        }
+    }
+}
