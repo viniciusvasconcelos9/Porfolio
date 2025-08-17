@@ -15,14 +15,8 @@
 - ☑ CRUD Médico
 - ☑ CRUD Atendimento
 - ☑ CRUD Serviço
-- ☑ PLUS 2: Confirmação de Agendamento (Email/SMS + Google Agenda).
-- ☑ PLUS 2: Background Service rodando e notificando no dia anterior.
-- ☑ PLUS 2: Autenticação e Autorização Perfis: Médico, Administrador, Receptionista.
-- ☑ PLUS 2: CRUD DE ANEXO Tipos: Atestado, Receita, Evolução.
-  
 
 ### Tecnologias utilizadas 💡
-
 
 - ASP.NET Core 7: framework web para desenvolvimento de aplicações .NET
 - Entity Framework Core: persistência e consulta de dados.
@@ -30,7 +24,6 @@
   
 
 ### Padrões, conceitos e arquitetura utilizada 📂
-
 
 - ☑ Fluent Validation
 - ☑ Padrão Repository
@@ -46,7 +39,6 @@
 - ☑ Teste Unitários
 - ☑ Arquitetura Limpa
 
- 
 ## Instalação
 
 ### Requisitos
