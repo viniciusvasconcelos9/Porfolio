@@ -53,7 +53,7 @@ Antes de começar, verifique se você tem os seguintes requisitos instalados:
 Clone o repositório do GitHub:
 
 ```bash
-git clone https://github.com/[seu-usuário]/ClinicManager.API.git
+git clone [https://github.com/[seu-usuário]/ClinicManager.API.git](https://github.com/viniciusvasconcelos9/Porfolio.git)
 ```
 
 ### Navegue até a pasta do projeto:
@@ -83,9 +83,6 @@ Para executar a API, use o seguinte comando:
 dotnet run
 ```
 
-### Lembre-se de substituir [seu-usuário] pelo seu nome de usuário do GitHub.
-
-Este projeto foi criado para fins didáticos e não abrange todas as regras e conceitos necessários de uma aplicação real em produção.*
 
 
 
