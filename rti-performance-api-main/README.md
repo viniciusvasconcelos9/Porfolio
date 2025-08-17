@@ -20,7 +20,7 @@
 
 - ASP.NET Core 7: framework web para desenvolvimento de aplicações .NET
 - Entity Framework Core: persistência e consulta de dados.
-- SQL Server: banco de dados relacional.
+- PostgreSQL: banco de dados relacional.
   
 
 ### Padrões, conceitos e arquitetura utilizada 📂
