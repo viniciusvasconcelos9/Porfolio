@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\bin\Debug\net9.0\EcommerceAPI.Core.deps.json
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\bin\Debug\net9.0\EcommerceAPI.Core.dll
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\bin\Debug\net9.0\EcommerceAPI.Core.pdb
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\obj\Debug\net9.0\EcommerceAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\obj\Debug\net9.0\EcommerceAPI.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\obj\Debug\net9.0\EcommerceAPI.Core.AssemblyInfo.cs
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\obj\Debug\net9.0\EcommerceAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\obj\Debug\net9.0\EcommerceAPI.Core.sourcelink.json
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\obj\Debug\net9.0\EcommerceAPI.Core.dll
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\obj\Debug\net9.0\refint\EcommerceAPI.Core.dll
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\obj\Debug\net9.0\EcommerceAPI.Core.pdb
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Core\obj\Debug\net9.0\ref\EcommerceAPI.Core.dll

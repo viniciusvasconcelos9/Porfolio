@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\bin\Debug\net9.0\EcommerceAPI.Infrastructure.deps.json
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\bin\Debug\net9.0\EcommerceAPI.Infrastructure.dll
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\bin\Debug\net9.0\EcommerceAPI.Infrastructure.pdb
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\bin\Debug\net9.0\EcommerceAPI.Core.dll
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\bin\Debug\net9.0\EcommerceAPI.Core.pdb
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\EcommerceAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\EcommerceAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\EcommerceAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\EcommerceAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\EcommerceAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\EcommerceAPI.Infrastructure.sourcelink.json
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\Ecommerc.2A9D554D.Up2Date
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\EcommerceAPI.Infrastructure.dll
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\refint\EcommerceAPI.Infrastructure.dll
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\EcommerceAPI.Infrastructure.pdb
+C:\Users\Administrator\Documents\GitHub\Porf-lio\E-commerce\EcommerceAPI.Infrastructure\obj\Debug\net9.0\ref\EcommerceAPI.Infrastructure.dll
