@@ -15,22 +15,15 @@
 - ☑ CRUD Médico
 - ☑ CRUD Atendimento
 - ☑ CRUD Serviço
-- ☑ PLUS 2: Confirmação de Agendamento (Email/SMS + Google Agenda).
-- ☑ PLUS 2: Background Service rodando e notificando no dia anterior.
-- ☑ PLUS 2: Autenticação e Autorização Perfis: Médico, Administrador, Receptionista.
-- ☑ PLUS 2: CRUD DE ANEXO Tipos: Atestado, Receita, Evolução.
-  
 
 ### Tecnologias utilizadas 💡
 
-
 - ASP.NET Core 7: framework web para desenvolvimento de aplicações .NET
 - Entity Framework Core: persistência e consulta de dados.
-- SQL Server: banco de dados relacional.
+- PostgreSQL: banco de dados relacional.
   
 
 ### Padrões, conceitos e arquitetura utilizada 📂
-
 
 - ☑ Fluent Validation
 - ☑ Padrão Repository
@@ -46,7 +39,6 @@
 - ☑ Teste Unitários
 - ☑ Arquitetura Limpa
 
- 
 ## Instalação
 
 ### Requisitos
@@ -61,7 +53,7 @@ Antes de começar, verifique se você tem os seguintes requisitos instalados:
 Clone o repositório do GitHub:
 
 ```bash
-git clone https://github.com/[seu-usuário]/ClinicManager.API.git
+git clone [https://github.com/[seu-usuário]/ClinicManager.API.git](https://github.com/viniciusvasconcelos9/Porfolio.git)
 ```
 
 ### Navegue até a pasta do projeto:
@@ -91,9 +83,6 @@ Para executar a API, use o seguinte comando:
 dotnet run
 ```
 
-### Lembre-se de substituir [seu-usuário] pelo seu nome de usuário do GitHub.
-
-Este projeto foi criado para fins didáticos e não abrange todas as regras e conceitos necessários de uma aplicação real em produção.*
 
 
 
